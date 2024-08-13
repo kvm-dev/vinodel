@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/base" />
+            <option value="$PROJECT_DIR$/base/di" />
+            <option value="$PROJECT_DIR$/base/navigation" />
+            <option value="$PROJECT_DIR$/base/network" />
+            <option value="$PROJECT_DIR$/base/ui" />
+            <option value="$PROJECT_DIR$/base/utils" />
+            <option value="$PROJECT_DIR$/base/viewmodel" />
+            <option value="$PROJECT_DIR$/features" />
+            <option value="$PROJECT_DIR$/features/drinks" />
+            <option value="$PROJECT_DIR$/features/drinks/api" />
+            <option value="$PROJECT_DIR$/features/drinks/imp" />
+            <option value="$PROJECT_DIR$/features/ingredients" />
+            <option value="$PROJECT_DIR$/features/ingredients/api" />
+            <option value="$PROJECT_DIR$/features/ingredients/imp" />
+            <option value="$PROJECT_DIR$/features/main" />
+            <option value="$PROJECT_DIR$/features/main/api" />
+            <option value="$PROJECT_DIR$/features/main/imp" />
+            <option value="$PROJECT_DIR$/features/recipes" />
+            <option value="$PROJECT_DIR$/features/recipes/api" />
+            <option value="$PROJECT_DIR$/features/recipes/imp" />
+            <option value="$PROJECT_DIR$/features/splash" />
+            <option value="$PROJECT_DIR$/features/splash/api" />
+            <option value="$PROJECT_DIR$/features/splash/imp" />
+            <option value="$PROJECT_DIR$/features/storage" />
+            <option value="$PROJECT_DIR$/features/storage/api" />
+            <option value="$PROJECT_DIR$/features/storage/imp" />
+          </set>
+        </option>
+        <option name="resolveExternalAnnotations" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

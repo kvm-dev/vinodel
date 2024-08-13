@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connection_error">Отсутствует соединение с интернетом</string>
+    <string name="connection_error_description">Пожалуйста, проверьте подключение к сети интернет</string>
+    <string name="connection_timeout">Превышен интервал ожидания ответа</string>
+    <string name="connection_timeout_description">Попробуйте повторить попытку позже</string>
+</resources>
