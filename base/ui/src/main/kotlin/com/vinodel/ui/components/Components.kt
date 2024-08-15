@@ -42,7 +42,6 @@ fun BaseBox(){
 }
 
 
-@RequiresApi(Build.VERSION_CODES.Q)
 @Composable
 fun BaseText(text: String){
     Text(modifier = Modifier.padding(vertical = 12.dp, horizontal = 38.dp), text =text, fontFamily = oswaldSansFamily, fontWeight = FontWeight.Normal, style = TextStyle(
@@ -52,7 +51,6 @@ fun BaseText(text: String){
         ))
 }
 
-@RequiresApi(Build.VERSION_CODES.Q)
 @Composable
 fun BaseWhiteText(text: String){
     Text(modifier = Modifier.padding(vertical = 12.dp, horizontal = 38.dp), text =text, fontFamily = oswaldSansFamily, fontWeight = FontWeight.Normal, style = TextStyle(

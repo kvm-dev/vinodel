@@ -21,6 +21,8 @@ compose-viewmodel = "2.6.1"
 room = "2.6.1"
 coroutines = "1.5.2"
 retrofit = "2.11.0"
+gson = "2.9.0"
+google-gson = "2.10.1"
 navigation = "2.7.7"
 material3-android = "1.2.1"
 compose-ui = "1.6.8"
@@ -51,7 +53,8 @@ androidx-foundation-layout-android = { group = "androidx.compose.foundation", na
 androidx-compose-ui = { group = "androidx.compose.ui", name = "ui-graphics", version.ref = "compose-ui"}
 #network
 retrofit-client = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit"}
-gson-converter = { group = "com.squareup.retrofit2", name = "converter-gson" }
+gson-converter = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "gson" }
+google-gson = {group = "com.google.code.gson", name = "gson", version.ref = "google-gson"}
 #lifecycle
 lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
 #database

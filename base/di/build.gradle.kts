@@ -9,7 +9,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        minSdk = 26
+        minSdk = 29
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
@@ -42,6 +42,7 @@ android {
 dependencies {
     implementation(libs.koin.android)
     implementation(libs.koin.compose)
+    implementation(libs.gson.converter)
     implementation(project(":base:navigation"))
     implementation(project(":base:network"))
     implementation(project(":features:splash:imp"))
